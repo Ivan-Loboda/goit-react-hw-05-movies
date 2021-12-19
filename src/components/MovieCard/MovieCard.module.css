@@ -1,0 +1,71 @@
+.button {
+  border: 1px solid #a9a7a7;
+  border-radius: 5px;
+
+  margin-bottom: 10px;
+}
+
+.movieBox {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.image {
+  width: 200px;
+}
+
+.descriptionBox {
+  padding-left: 20px;
+}
+
+.title {
+  margin: 0;
+}
+
+.userScore {
+  margin-bottom: 10px;
+}
+
+.overview {
+  font-weight: 700;
+  font-size: 18px;
+
+  margin-bottom: 10px;
+}
+
+.overview__text {
+  margin-bottom: 10px;
+}
+
+.genres {
+  font-weight: 700;
+  font-size: 17px;
+
+  margin-bottom: 10px;
+}
+
+.genres__name:not(:last-child) {
+  margin-right: 10px;
+}
+
+.info {
+  margin-bottom: 10px;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 17px;
+
+  color: black;
+}
+
+.link_active {
+  composes: link;
+  color: red;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+}

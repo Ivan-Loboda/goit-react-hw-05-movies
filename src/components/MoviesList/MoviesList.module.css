@@ -1,0 +1,12 @@
+.link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 17px;
+
+  color: black;
+}
+
+.link_active {
+  composes: link;
+  color: red;
+}
